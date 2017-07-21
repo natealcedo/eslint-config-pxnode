@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-pxnode",
+  "version": "1.0.0",
+  "description": "A sane configuration setting for eslint that Oromico uses",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["oromico", "eslint", "eslintconfig"],
+  "peerDependencies": {
+    "eslint": ">=4.0.0",
+    "babel-eslint": ">= 7.0.0",
+    "eslint-plugin-import": ">=2.7.0"
+  },
+  "author": "Nathaniel D Alcedo Jr",
+  "license": "MIT"
+}
