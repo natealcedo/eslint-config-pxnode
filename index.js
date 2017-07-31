@@ -15,7 +15,11 @@ module.exports = {
   },
   rules: {
     "array-callback-return": "error",
-    "arrow-body-style": "error",
+    "arrow-body-style": [
+      "error",
+      "as-needed",
+      { requireReturnForObjectLiteral: true },
+    ],
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "only-multiline"],
     "comma-style": "error",
